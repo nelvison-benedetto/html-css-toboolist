@@ -39,7 +39,23 @@
     padding-left: 5px;
 }
 
+
+
 #app_main{
     background-color: var(--blue);
     background-size: 100px;
+}
+
+.container{
+    width: 100%;
+    margin: auto;
+}
+.little_container{
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 60px
+}
+
+.text_xs{
+    font-size: 0.8rem;
 }
