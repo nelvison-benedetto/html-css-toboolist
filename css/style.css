@@ -1,0 +1,45 @@
+:root{
+    --white: #fff;
+    --white-gray: #f6f8f9;
+    --blue: #14aaf5;
+    --green-strong: #2cc6ab;
+    --red: #f00;
+    --orange: #ff9b00;
+    --red-light: #ec4a9d;
+    --green-light: #a3d116;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    width: 8%;
+    height: auto;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.8rem;
+}
+
+#app_header{
+    background-color: var(--orange);
+    background-size: 100px;
+}
+
+#logo_app{
+    display: inline-block;
+    vertical-align:middle;
+}
+#name_app{
+    display: inline-block;
+    vertical-align:middle;
+    font-size: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 5px;
+}
+
+#app_main{
+    background-color: var(--blue);
+    background-size: 100px;
+}
