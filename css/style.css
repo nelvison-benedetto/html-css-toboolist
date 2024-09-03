@@ -39,21 +39,23 @@
     padding-left: 5px;
 }
 
-
-
 #app_main{
     background-color: var(--blue);
     min-height: 100vh;
+    display: flex;
+    justify-content: center; 
 }
 
 .container{
-    padding: 50 50 50 50px;
     width: 100%;
-    margin: auto;
 }
-.little_container{
-    background-color: #a3d116;
 
+.little_container{
+    background-color: var(--green-light); 
+    width: 50%; 
+    margin: 30px auto auto auto; 
+    text-align: justify; /* Giustifica il testo */
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); 
 }
 
 .text_xs{
