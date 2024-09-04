@@ -102,9 +102,10 @@
     list-style: none;
     padding-left: 0px;
 }
-.custom_list li::before {
-    content: "✦"; 
-    color: #000;
-    font-size: 1.2em;
-    padding-right: 10px;
+
+.icon_check{
+    
 }
+
+
+
