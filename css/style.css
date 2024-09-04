@@ -1,6 +1,7 @@
 :root{
     --white: #fff;
     --white-gray: #f6f8f9;
+    --gray: #808080;
     --blue: #14aaf5;
     --green-strong: #2cc6ab;
     --red: #f00;
@@ -23,7 +24,7 @@
 }
 
 #app_header{
-    background-color: var(--orange);
+    background-color: var(--white);
     background-size: 100px;
 }
 
@@ -40,7 +41,7 @@
 }
 
 #app_main{
-    background-color: var(--blue);
+    background-color: var(--white-gray);
     min-height: 100vh;
     display: flex;
     justify-content: center; 
@@ -50,14 +51,47 @@
     width: 100%;
 }
 
-.little_container{
-    background-color: var(--green-light); 
+.little_containers{
+    border-radius: 6px;
+    background-color: var(--white); 
     width: 50%; 
-    margin: 30px auto auto auto; 
-    text-align: justify; /* Giustifica il testo */
+    margin: auto; 
     box-shadow: 0 0 10px rgba(0,0,0,0.5); 
 }
 
 .text_xs{
     font-size: 0.8rem;
+}
+.text_font{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.button{
+    height: auto;
+    width: auto;
+    font-size: 15px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#btn_addtask{
+    background-color: var(--blue);
+    color: var(--white);
+    border: 2px solid var(--blue);
+}
+#btn_addsec{
+    background-color: var(--white);
+    color: var(--gray);
+    border: 2px solid var(--gray);
+    box-sizing: border-box;  /*#iclude the border within total */
+}
+
+#littlecon_up{
+    padding: 10px 80px;
+}
+#littlecon_down{
+    padding: 30px 80px;
+    margin-top: 5px;
 }
