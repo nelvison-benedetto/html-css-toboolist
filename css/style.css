@@ -16,11 +16,11 @@
 }
 
 .logo{
-    width: 8%;
+    width: 4%;
     height: auto;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
-    padding-left: 0.8rem;
+    padding-left: 2rem;
 }
 
 #app_header{
@@ -31,13 +31,14 @@
 #logo_app{
     display: inline-block;
     vertical-align:middle;
+    padding-left: 
 }
 #name_app{
     display: inline-block;
     vertical-align:middle;
     font-size: 40px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding-left: 5px;
+
 }
 
 #app_main{
@@ -89,9 +90,21 @@
 }
 
 #littlecon_up{
+    margin-top: 3rem;
     padding: 10px 80px;
 }
 #littlecon_down{
     padding: 30px 80px;
     margin-top: 5px;
+}
+
+.custom_list{
+    list-style: none;
+    padding-left: 0px;
+}
+.custom_list li::before {
+    content: "✦"; 
+    color: #000;
+    font-size: 1.2em;
+    padding-right: 10px;
 }
