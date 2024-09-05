@@ -98,13 +98,15 @@
     margin-top: 5px;
 }
 
-.custom_list{
+ul.custom_list{
     list-style: none;
-    padding-left: 0px;
+    li{
+        line-height: 2rem;
+    }
 }
 
-.icon_check{
-    
+.circle{
+
 }
 
 
