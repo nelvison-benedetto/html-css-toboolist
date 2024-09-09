@@ -13,6 +13,11 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .logo{
@@ -106,8 +111,33 @@ ul.custom_list{
 }
 
 .circle{
-
+background-color: #ec4a9d;
+border: 1px solid black;
+border-radius: 3rem;
+}
+.type_task {
+    background-color: var(--red);
+    color: white;
+    font-size: 0.75rem;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.5rem;
 }
 
-
-
+.bg-editorial{
+    background-color: var(--blue);
+}
+.bg-q1goals{
+    background-color: purple;
+}
+.bg-recruiting{
+    background-color: var(--green-strong);
+}
+.bg-mobile{
+    background-color: var(--orange);
+}
+.bg-website{
+    background-color: var(--red-light);
+}
+.bg-sales{
+    background-color: var(--green-light);
+}
